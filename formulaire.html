@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet d'évalution technique</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contenair">
+      <h1>Liste de taches</h1>
+      <form id="registre-form">
+        <fieldset>
+          <legend><h2>Ajout de nouvelles taches</h2></legend>
+          <div class="titre">
+            <label for="titre" style="color: aqua">Titre :</label
+            ><input
+              type="text"
+              name="titre"
+              id="titre"
+              placeholder="Titre"
+              required
+            /><br /><br />
+            <label for="description" style="color: aqua">Description :</label
+            ><input
+              type="text"
+              name="description"
+              id="description"
+              placeholder="Description"
+              required
+            /><br /><br />
+            <label for="date" style="color: aqua">Date :</label
+            ><input
+              type="date"
+              name="date"
+              id="date"
+              placeholder="Date"
+              required
+            /><br /><br />
+            <label for="date" style="color: aqua">Heure :</label
+            ><input
+              type="time"
+              name="time"
+              id="time"
+              placeholder="Heure"
+              required
+            /><br /><br />
+          </div>
+          <div class="boutton">
+            <div>
+              <button type="button" class="button" id="button">Ajouter</button>
+            </div>
+            <div>
+              <button type="button" class="supprimer" id="supprimer">
+                Supprimer
+              </button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <h2>Liste de taches à faire</h2>
+    <ul></ul>
+    <script src="script.js"></script>
+  </body>
+</html>

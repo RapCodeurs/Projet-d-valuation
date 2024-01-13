@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.contenair {
+  display: block;
+  justify-content: center;
+}
+
+h1,
+h2,
+li {
+  text-align: center;
+  color: aqua;
+}
+
+input {
+  margin: 5px;
+}
+
+.boutton {
+  display: flex;
+  justify-content: space-between;
+}
+
+button:hover {
+  background-color: aqua;
+  text-align: center;
+  color: blueviolet;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 10px 10px 10px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 10px 10px 10px;
+}
+
+ul {
+  display: inline;
+  justify-content: center;
+}
