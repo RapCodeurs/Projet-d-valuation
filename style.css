@@ -28,15 +28,15 @@ button:hover {
   background-color: aqua;
   text-align: center;
   color: blueviolet;
-  margin: 10px 10px 10px 10px;
-  padding: 5px 10px 10px 10px;
+  margin: 10px;
+  padding: 5px 10px 10px;
 }
 
 button {
   background-color: white;
   color: black;
-  margin: 10px 10px 10px 10px;
-  padding: 5px 10px 10px 10px;
+  margin: 10px;
+  padding: 5px 10px 10px;
 }
 
 ul {
